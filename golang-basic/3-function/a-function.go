@@ -6,8 +6,9 @@ func getHello(name string) string {
 	return "Hello " + name
 }
 
-func multiHello() (string, string) {
-	return "Belajar", "Golang"
+// Multiple return
+func multiHello() (string, int) {
+	return "Belajar", 123
 }
 
 func main() {
@@ -15,8 +16,7 @@ func main() {
 	fmt.Println(getHello(name))
 
 	val1, val2 := multiHello()
-	fmt.Println(val1)
-	fmt.Println(val2)
+	fmt.Print("Multi return: (", val1, ",", val2, ")\n")
 
 	belajar, _ := multiHello() // Bisa hiraukan menggunakan _
 	fmt.Println(belajar)

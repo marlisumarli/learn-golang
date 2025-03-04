@@ -15,10 +15,8 @@ func main() {
 	switch value := result.(type) {
 	case string:
 		fmt.Println("String", value)
-
 	case int:
 		fmt.Println("Int", value)
-
 	default:
 		fmt.Println("Unkown", value)
 	}

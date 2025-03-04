@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"learn-golang/golang-basic/database"
+	"learn-golang/golang-basic/7-package_initialize/database"
 )
 
 func main() {

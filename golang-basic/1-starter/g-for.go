@@ -28,8 +28,8 @@ func main() {
 	}
 
 	// Bisa seperti ini
-	for index, car := range cars {
-		fmt.Println("Index", index, `"Value"`, car)
+	for index, data := range cars {
+		fmt.Println("Index", index, `"Value"`, data)
 	}
 
 }

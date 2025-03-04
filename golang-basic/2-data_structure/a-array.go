@@ -20,7 +20,7 @@ func main() {
 
 	fmt.Println(number)
 
-	// Array literal
+	// Array literal, bebas mau berapapun
 	var numberLtrl = [...]int{
 		1,
 		2,

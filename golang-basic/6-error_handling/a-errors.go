@@ -16,9 +16,9 @@ func Pembagian(n, divided int) (int, error) {
 func main() {
 	res, err := Pembagian(4, 1)
 
-	if err == nil {
-		fmt.Println("Hasil", res)
-	} else {
+	if err != nil {
 		fmt.Println("Error", err.Error())
+	} else {
+		fmt.Println("Hasil", res)
 	}
 }

@@ -7,16 +7,18 @@ type Address struct {
 }
 
 func main() {
-	//i := Address{"Subang", "Indonesia"}
+	//i := Address{"Karawang", "Indonesia"}
 	//p := i // Copy
 	//
-	//p.City = "Jakarta"
+	//p.City = "Jakarta" // Ga bakal merubah i
 	//
 	//fmt.Printf("i  %T: &i=%p i=%v\n", i, &i, i)
 	//fmt.Printf("p  %T: &p=%p p=%v\n", p, &p, p)
 
-	i := Address{"Subang", "Indonesia"}
+	i := Address{"Karawang", "Indonesia"}
 	p := &i // Pointer ke i
+
+	fmt.Println(i)
 
 	p.City = "Jakarta"
 

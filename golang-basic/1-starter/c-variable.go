@@ -26,16 +26,16 @@ func main() {
 	fmt.Println(last)
 
 	// Constant inline variable
-	const version string = "1.0.0"
-	fmt.Println(version)
+	const VERSION string = "1.0.0"
+	fmt.Println(VERSION)
 
 	// Constant multiple variable
 	const (
-		v    = "1.0.0"
-		lang = "go"
-		sys  = "Mac"
+		V    = "1.0.0"
+		LANG = "go"
+		SYS  = "Mac"
 	)
-	fmt.Println(v)
-	fmt.Println(lang)
-	fmt.Println(sys)
+	fmt.Println(V)
+	fmt.Println(LANG)
+	fmt.Println(SYS)
 }

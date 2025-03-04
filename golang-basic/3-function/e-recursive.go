@@ -11,6 +11,7 @@ func fibonacci(n int) int {
 
 	return fibonacci(n-1) + fibonacci(n-2)
 }
+
 func main() {
 	n := 20
 	for i := 1; i <= n; i++ {

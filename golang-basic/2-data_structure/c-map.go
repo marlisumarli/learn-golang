@@ -18,6 +18,7 @@ func main() {
 
 	fmt.Println(car)
 
+	// Hapus data
 	delete(car, "Pedals")
 
 	fmt.Println(car)

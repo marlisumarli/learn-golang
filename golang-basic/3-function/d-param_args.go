@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Menggunakan literal (...)
 func sumAll(numbers ...int) int {
 	total := 0
 
@@ -16,5 +17,5 @@ func main() {
 
 	// Bisa seperti ini
 	numbers := []int{10, 10, 10}
-	fmt.Println(sumAll(numbers...))
+	fmt.Println(sumAll(numbers...)) // Jangan lupa beri (...) ketika ingin mengirim
 }

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	kecepatan := 1
+	kecepatan := 18
 
 	if kecepatan > 1 && kecepatan <= 5 {
 		fmt.Println("Anda sedang berjalan 🚶🏻‍♂️")
